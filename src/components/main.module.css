@@ -1,0 +1,179 @@
+.main {
+   margin: 50px 10px; 
+}
+
+.main h1 {
+    color: #775CAB;
+    font-size: 2.5em;
+    line-height: 45px;
+    margin-bottom: 60px;
+}
+
+.main p {
+    color: #555;
+    font-size: 1.5em;
+}
+
+.main a {
+    align-items: center;
+    background-color: #775CAB;
+    border-radius: 30px; 
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: space-around;
+    width: 80%;
+    margin: 30px;
+}
+
+.main a:hover {
+    background-color: #644d8f;
+}
+
+.main img {
+    max-width: 300px;
+    margin-top: -60px;
+}
+
+.rules {
+    list-style-type: none;
+}
+
+.rules li span{
+    color: orange;
+    font-size: 1.8em;
+    font-weight: 800;
+    height: 30px;
+    width: 30px;
+}
+
+.rules li p {
+    font-size: 1.2em;
+    padding: 0 1em 1em;
+}
+
+.rules li {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.rules li:hover {
+    background-color: #E8E8E8;
+}
+
+#icon {
+    font-weight: 100px;
+}
+
+label {
+    align-items: center;
+    background-color: #775CAB;
+    border-radius: 10px;
+    border: 2.5px solid #644d8f;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin: 5px;
+    height: 80px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+label:hover {
+    background-color: #644d8f;
+}
+
+label img {
+    width: 80px;
+    background-color: #E8E8E8;
+}
+
+label h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    width: 70%;
+}
+
+label h1 strong {
+    font-weight: 800;
+}
+
+label button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin: 0 10px;
+    outline: none;
+}
+
+.accordion {
+    transition: height 1s ease-in .2s;
+    padding: 0 10px
+}
+
+.toggle-hide {
+    height: 0px;
+    overflow: hidden;
+}
+
+.toggle-show {
+    height: auto;
+}
+
+.accordion li {
+    align-items: center;
+    background-color: #E8E8E8;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    padding: 5px 1em;
+}
+
+.accordion span {
+    color: rgb(75, 75, 75);
+    font-weight: 400;
+}
+
+.accordion p {
+    color: gray;
+}
+
+.accordion strong {
+    color: #605393
+}
+
+.accordion a {
+    background-color: rgb(50, 238, 50);
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: white;
+    padding: 5px 12px;
+}
+
+.no-businesses {
+    border-bottom: none;
+    color: darkgray;
+    display: flex;
+    font-weight: 400;
+    padding: 1em 5em;
+}
+
+@media (max-width: 700px){
+
+    label h1 {
+        width: 55%;
+    }
+}
+
+@media (min-width: 700px) {
+    .rules {
+        width: 70%;
+        margin-left: 30%;
+    }
+}

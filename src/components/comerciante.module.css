@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main img {
+    width: 300px;
+}
+
+.main h1 {
+    color: #775CAB;
+}

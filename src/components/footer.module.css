@@ -1,0 +1,89 @@
+.footer {
+    background-color: #333;
+    margin-top: 60px;
+    overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer div:first-child {
+    align-items: center;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 90%;
+}
+
+.social-media {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.social-media img {
+    width: 15%;
+}
+
+.social-media aside {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.social-media aside a svg {
+    color: white;
+    font-size: 1.5em;
+    opacity: .8;
+}
+
+.footer label {
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+    overflow: visible;
+    width: 20%;
+}
+
+.footer label span {
+    color: #775cab;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.footer label a {
+    color: white;
+    text-decoration: none;
+    margin-top: -10px;
+    opacity: .9;
+}
+
+#logo {
+    width: 15%;
+    margin-right: 25%;
+}
+
+@media (max-width: 700px) {
+    .footer div {
+        width: 80%;
+    }
+
+    .social-media img{
+        width: 50%;
+    }
+
+    .social-media aside {
+        margin-right: 0;
+        width: 40%;
+    }
+
+    #logo {
+        display: none;
+    }
+}
