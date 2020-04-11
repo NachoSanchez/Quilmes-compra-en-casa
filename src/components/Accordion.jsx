@@ -13,19 +13,21 @@ const Accordion = (props) => {
     const suggestions = props.businesses.filter( 
         item => item.zone === zone || item.zone === null 
     );
-   
     return ( 
         <div>
-            <label htmlFor={ props.category } className={styles.label}>
-                <img src={props.image} alt=""/>
-                <h1><strong>{ props.category }</strong><br/>{ props.subcategory }</h1> 
-                <small>{suggestions.length}</small>
-                <button id={ props.category } onClick={()=> (setShowing(!isShowing))}>
-                { isShowing 
-                ? <FontAwesomeIcon icon={ faTimes }/>
-                : <FontAwesomeIcon icon={ faPlus }/> }
-                </button>
-            </label>
+            {   //El componente entero no se va a montar si suggestions es un array vacío
+                suggestions.length > 0 
+                &&(<label htmlFor={ props.category } className={styles.label}>
+                        <img src={props.image} alt=""/>
+                        <h1><strong>{ props.category }</strong><br/>{ props.subcategory }</h1> 
+                        <small>{suggestions.length}</small>
+                        <button id={ props.category } onClick={()=> (setShowing(!isShowing))}>
+                        { isShowing 
+                        ? <FontAwesomeIcon icon={ faTimes }/>
+                        : <FontAwesomeIcon icon={ faPlus }/> }
+                        </button>
+                    </label>
+                )}
             <ul className={styles.accordion + ' ' + toggle }>
             { //Primero validamos que haya sugerencias por barrio y si las hay mapeamos el array
             suggestions.length > 0 
