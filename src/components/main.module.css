@@ -4,14 +4,14 @@
 
 .main h1 {
     color: #775CAB;
-    font-size: 2.5em;
-    line-height: 45px;
+    font-size: 2em;
+    line-height: 35px;
     margin-bottom: 60px;
 }
 
 .main p {
     color: #555;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .main a {
@@ -21,7 +21,7 @@
     color: white;
     cursor: pointer;
     display: flex;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 20px;
     text-decoration: none;
     justify-content: space-around;
@@ -44,14 +44,14 @@
 
 .rules li span{
     color: orange;
-    font-size: 1.8em;
+    font-size: 1em;
     font-weight: 800;
     height: 30px;
     width: 30px;
 }
 
 .rules li p {
-    font-size: 1.2em;
+    font-size: 20px;
     padding: 0 1em 1em;
 }
 
@@ -92,7 +92,7 @@ label img {
 }
 
 label h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1em;

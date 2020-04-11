@@ -32,7 +32,7 @@ const Home = () => {
                         <a href="mailto:quilmescompraencasa@quilmes.gov.ar">
                             <FontAwesomeIcon icon={faEnvelope}/>
                         </a>
-                        <a href="https://wa.me/+541126865593">
+                        <a href="https://wa.me/541126865593">
                             <FontAwesomeIcon icon={faWhatsapp}/>
                         </a>
                     </div>

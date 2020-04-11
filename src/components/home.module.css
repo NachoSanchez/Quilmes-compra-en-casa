@@ -34,7 +34,7 @@
 
 .home h1 {
     font-family: Branding;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     line-height: .8em;
 }
@@ -76,7 +76,7 @@
     border: 2px solid #775CAB;
     color: #775CAB;
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
     margin: 7px;
